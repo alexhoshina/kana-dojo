@@ -7,7 +7,7 @@ jobs:
   notify-discord:
     runs-on: ubuntu-latest
     if: github.event.deployment_status.state == 'failure' || github.event.deployment_status.state == 'error'
-    
+
     steps:
       - name: Send Failure Notification to Discord
         env:
@@ -28,7 +28,7 @@ jobs:
                 },
                 {
                   \"name\": \"Branch\",
-                  \"value\": \"${{ github.ref_name }}\",
+                  \"value\": \"${{ github.event.deployment.ref }}\",
                   \"inline\": true
                 },
                 {
@@ -38,12 +38,27 @@ jobs:
                 },
                 {
                   \"name\": \"Commit\",
-                  \"value\": \"[\`${{ github.sha }}\`](${{ github.event.repository.html_url }}/commit/${{ github.sha }})\",
+                  \"value\": \"[\`${{ github.event.deployment.sha }}\`](${{ github.event.repository.html_url }}/commit/${{ github.event.deployment.sha }})\",
+                  \"inline\": false
+                },
+                {
+                  \"name\": \"Status\",
+                  \"value\": \"${{ github.event.deployment_status.state }}\",
+                  \"inline\": true
+                },
+                {
+                  \"name\": \"Error\",
+                  \"value\": \"${{ github.event.deployment_status.description }}\",
                   \"inline\": false
                 },
                 {
                   \"name\": \"Deployment URL\",
                   \"value\": \"${{ github.event.deployment_status.target_url }}\",
+                  \"inline\": false
+                },
+                {
+                  \"name\": \"Workflow Run\",
+                  \"value\": \"${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\",
                   \"inline\": false
                 },
                 {
@@ -60,7 +75,7 @@ jobs:
   notify-success:
     runs-on: ubuntu-latest
     if: github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'production'
-    
+
     steps:
       - name: Send Success Notification to Discord
         env:
