@@ -105,7 +105,7 @@ input[type='checkbox']:checked::after {
 
 /* scrollbar style */
 [data-scroll-restoration-id='container'],
-#patch-notes-scroll {
+#modal-scroll {
   --scrollbar-color-thumb: var(--main-color);
   --scrollbar-color-track: transparent;
   --scrollbar-width: thin; /* auto for the default one */
@@ -115,7 +115,7 @@ input[type='checkbox']:checked::after {
 /* Modern browsers with `scrollbar-*` support */
 @supports (scrollbar-width: auto) {
   [data-scroll-restoration-id='container'],
-  #patch-notes-scroll {
+  #modal-scroll {
     scrollbar-color: var(--scrollbar-color-thumb) var(--scrollbar-color-track);
     scrollbar-width: var(--scrollbar-width);
   }
@@ -124,15 +124,15 @@ input[type='checkbox']:checked::after {
 /* Legacy browsers with `::-webkit-scrollbar-*` support */
 @supports selector(::-webkit-scrollbar) {
   [data-scroll-restoration-id='container']::-webkit-scrollbar-thumb,
-  #patch-notes-scroll::-webkit-scrollbar-thumb {
+  #modal-scroll::-webkit-scrollbar-thumb {
     background: var(--scrollbar-color-thumb);
   }
   [data-scroll-restoration-id='container']::-webkit-scrollbar-track,
-  #patch-notes-scroll::-webkit-scrollbar-track {
+  #modal-scroll::-webkit-scrollbar-track {
     background: var(--scrollbar-color-track);
   }
   [data-scroll-restoration-id='container']::-webkit-scrollbar,
-  #patch-notes-scroll::-webkit-scrollbar {
+  #modal-scroll::-webkit-scrollbar {
     max-width: var(--scrollbar-width-legacy);
     max-height: var(--scrollbar-width-legacy);
   }
