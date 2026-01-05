@@ -9,33 +9,25 @@ const isDev = process.env.NODE_ENV !== 'production';
 const intlMiddleware = !isDev ? createMiddleware(routing) : null;
 
 export default function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+
+  if (
+    pathname.startsWith('/_next') ||
+    pathname.startsWith('/api') ||
+    pathname.startsWith('/_vercel') ||
+    pathname.startsWith('/monitoring') ||
+    pathname.startsWith('/healthcheck') ||
+    pathname.includes('.')
+  ) {
+    return NextResponse.next();
+  }
+
   if (isDev) {
-    // Minimal dev middleware - only handles URL rewriting for single locale
-    // This avoids the overhead of createMiddleware() while maintaining functionality
-    const { pathname } = request.nextUrl;
-
-    // Skip special paths that don't need locale handling
-    if (
-      pathname.startsWith('/_next') ||
-      pathname.startsWith('/api') ||
-      pathname.startsWith('/_vercel') ||
-      pathname.startsWith('/monitoring') ||
-      pathname.startsWith('/healthcheck') ||
-      pathname.includes('.')
-    ) {
-      return NextResponse.next();
-    }
-
-    // For all other requests, rewrite to include the default locale
-    // This matches app/[locale] structure with locale='en'
     const url = request.nextUrl.clone();
     url.pathname = `/en${pathname}`;
-
-    // Use rewrite (not redirect) to keep URL clean
     return NextResponse.rewrite(url);
   }
 
-  // Production: use full next-intl middleware with all features
   return intlMiddleware!(request);
 }
 
