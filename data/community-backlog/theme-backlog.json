@@ -1737,5 +1737,302 @@
     "completed": true,
     "completedBy": "2024si96559-code",
     "completedPR": 2418
+  },
+  {
+    "id": "paper-lantern",
+    "name": "Paper Lantern",
+    "description": "Warm glow along a quiet alley",
+    "backgroundColor": "oklch(18.0% 0.030 20.0 / 1)",
+    "mainColor": "oklch(82.0% 0.175 35.0 / 1)",
+    "secondaryColor": "oklch(70.0% 0.095 75.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "river-stone",
+    "name": "River Stone",
+    "description": "Smooth stones under clear water",
+    "backgroundColor": "oklch(19.0% 0.020 250.0 / 1)",
+    "mainColor": "oklch(72.0% 0.050 215.0 / 1)",
+    "secondaryColor": "oklch(60.0% 0.040 230.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "festival-red",
+    "name": "Festival Red",
+    "description": "Matsuri banners and taiko drums",
+    "backgroundColor": "oklch(17.0% 0.055 25.0 / 1)",
+    "mainColor": "oklch(78.0% 0.205 25.0 / 1)",
+    "secondaryColor": "oklch(85.0% 0.085 85.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "misty-shrine",
+    "name": "Misty Shrine",
+    "description": "Fog rolling through cedar gates",
+    "backgroundColor": "oklch(21.0% 0.025 190.0 / 1)",
+    "mainColor": "oklch(76.0% 0.085 180.0 / 1)",
+    "secondaryColor": "oklch(62.0% 0.065 210.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "tea-garden",
+    "name": "Tea Garden",
+    "description": "Fresh leaves and quiet paths",
+    "backgroundColor": "oklch(22.0% 0.035 140.0 / 1)",
+    "mainColor": "oklch(74.0% 0.145 135.0 / 1)",
+    "secondaryColor": "oklch(65.0% 0.085 115.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "tsukimi-night",
+    "name": "Tsukimi Night",
+    "description": "Moon viewing with silver light",
+    "backgroundColor": "oklch(14.0% 0.030 260.0 / 1)",
+    "mainColor": "oklch(88.0% 0.050 230.0 / 1)",
+    "secondaryColor": "oklch(68.0% 0.075 260.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "gingko-gold",
+    "name": "Gingko Gold",
+    "description": "Autumn avenues of yellow leaves",
+    "backgroundColor": "oklch(23.0% 0.030 85.0 / 1)",
+    "mainColor": "oklch(86.0% 0.165 95.0 / 1)",
+    "secondaryColor": "oklch(70.0% 0.115 75.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "coastal-breeze",
+    "name": "Coastal Breeze",
+    "description": "Sea spray and distant cliffs",
+    "backgroundColor": "oklch(20.0% 0.035 225.0 / 1)",
+    "mainColor": "oklch(80.0% 0.120 210.0 / 1)",
+    "secondaryColor": "oklch(70.0% 0.085 195.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "hanami-pink",
+    "name": "Hanami Pink",
+    "description": "Petals drifting across a river",
+    "backgroundColor": "oklch(92.0% 0.028 345.0 / 1)",
+    "mainColor": "oklch(70.0% 0.165 350.0 / 1)",
+    "secondaryColor": "oklch(78.0% 0.110 25.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "bamboo-shadow",
+    "name": "Bamboo Shadow",
+    "description": "Long shadows in a green grove",
+    "backgroundColor": "oklch(18.0% 0.040 150.0 / 1)",
+    "mainColor": "oklch(72.0% 0.135 145.0 / 1)",
+    "secondaryColor": "oklch(60.0% 0.090 135.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "saffron-dusk",
+    "name": "Saffron Dusk",
+    "description": "Late sunlight over temple roofs",
+    "backgroundColor": "oklch(21.0% 0.040 55.0 / 1)",
+    "mainColor": "oklch(78.0% 0.160 60.0 / 1)",
+    "secondaryColor": "oklch(70.0% 0.095 40.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "ink-wash",
+    "name": "Ink Wash",
+    "description": "Sumi strokes on textured paper",
+    "backgroundColor": "oklch(96.0% 0.006 90.0 / 1)",
+    "mainColor": "oklch(30.0% 0.015 260.0 / 1)",
+    "secondaryColor": "oklch(55.0% 0.020 260.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "yukata-blue",
+    "name": "Yukata Blue",
+    "description": "Summer cotton and indigo dye",
+    "backgroundColor": "oklch(19.0% 0.035 250.0 / 1)",
+    "mainColor": "oklch(70.0% 0.120 240.0 / 1)",
+    "secondaryColor": "oklch(75.0% 0.070 200.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "ramune-fizz",
+    "name": "Ramune Fizz",
+    "description": "Festival soda and glass marbles",
+    "backgroundColor": "oklch(92.0% 0.030 210.0 / 1)",
+    "mainColor": "oklch(62.0% 0.145 205.0 / 1)",
+    "secondaryColor": "oklch(70.0% 0.105 185.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "sakura-ink",
+    "name": "Sakura Ink",
+    "description": "Petal pink with charcoal lines",
+    "backgroundColor": "oklch(88.0% 0.030 340.0 / 1)",
+    "mainColor": "oklch(55.0% 0.170 350.0 / 1)",
+    "secondaryColor": "oklch(35.0% 0.020 260.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "snow-pine",
+    "name": "Snow Pine",
+    "description": "Evergreen needles and winter light",
+    "backgroundColor": "oklch(94.0% 0.010 210.0 / 1)",
+    "mainColor": "oklch(45.0% 0.080 155.0 / 1)",
+    "secondaryColor": "oklch(60.0% 0.040 200.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "koi-glow",
+    "name": "Koi Glow",
+    "description": "Golden fish at first light",
+    "backgroundColor": "oklch(22.0% 0.045 40.0 / 1)",
+    "mainColor": "oklch(82.0% 0.160 55.0 / 1)",
+    "secondaryColor": "oklch(70.0% 0.120 15.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "citrus-shrine",
+    "name": "Citrus Shrine",
+    "description": "Yuzu peel and wooden beams",
+    "backgroundColor": "oklch(20.0% 0.030 70.0 / 1)",
+    "mainColor": "oklch(86.0% 0.155 85.0 / 1)",
+    "secondaryColor": "oklch(75.0% 0.095 60.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "lantern-blue",
+    "name": "Lantern Blue",
+    "description": "Indigo paper and cool evenings",
+    "backgroundColor": "oklch(16.0% 0.030 250.0 / 1)",
+    "mainColor": "oklch(75.0% 0.115 230.0 / 1)",
+    "secondaryColor": "oklch(65.0% 0.085 255.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "plum-wood",
+    "name": "Plum Wood",
+    "description": "Ume blossoms and carved trays",
+    "backgroundColor": "oklch(24.0% 0.030 20.0 / 1)",
+    "mainColor": "oklch(72.0% 0.145 5.0 / 1)",
+    "secondaryColor": "oklch(60.0% 0.080 40.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "shoji-sunlight",
+    "name": "Shoji Sunlight",
+    "description": "Soft light through paper screens",
+    "backgroundColor": "oklch(95.0% 0.008 95.0 / 1)",
+    "mainColor": "oklch(52.0% 0.070 80.0 / 1)",
+    "secondaryColor": "oklch(65.0% 0.045 60.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "inkstone",
+    "name": "Inkstone",
+    "description": "Carved slate and quiet study",
+    "backgroundColor": "oklch(15.0% 0.018 260.0 / 1)",
+    "mainColor": "oklch(78.0% 0.040 230.0 / 1)",
+    "secondaryColor": "oklch(50.0% 0.030 255.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "kumo-sky",
+    "name": "Kumo Sky",
+    "description": "Clouds drifting over the bay",
+    "backgroundColor": "oklch(90.0% 0.020 220.0 / 1)",
+    "mainColor": "oklch(60.0% 0.090 215.0 / 1)",
+    "secondaryColor": "oklch(70.0% 0.060 200.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "sumi-coal",
+    "name": "Sumi Coal",
+    "description": "Charcoal embers and iron kettles",
+    "backgroundColor": "oklch(13.0% 0.015 260.0 / 1)",
+    "mainColor": "oklch(68.0% 0.035 220.0 / 1)",
+    "secondaryColor": "oklch(45.0% 0.025 260.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "harbor-lights",
+    "name": "Harbor Lights",
+    "description": "Night boats and city glow",
+    "backgroundColor": "oklch(14.0% 0.045 250.0 / 1)",
+    "mainColor": "oklch(80.0% 0.140 210.0 / 1)",
+    "secondaryColor": "oklch(70.0% 0.120 310.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "cedar-moss",
+    "name": "Cedar Moss",
+    "description": "Cool shade and green velvet",
+    "backgroundColor": "oklch(20.0% 0.030 150.0 / 1)",
+    "mainColor": "oklch(66.0% 0.115 135.0 / 1)",
+    "secondaryColor": "oklch(55.0% 0.070 155.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "sakura-soda",
+    "name": "Sakura Soda",
+    "description": "Sparkling pink and cool glass",
+    "backgroundColor": "oklch(94.0% 0.025 345.0 / 1)",
+    "mainColor": "oklch(68.0% 0.160 350.0 / 1)",
+    "secondaryColor": "oklch(72.0% 0.110 210.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "tea-ceramic",
+    "name": "Tea Ceramic",
+    "description": "Glazed cups and warm clay",
+    "backgroundColor": "oklch(23.0% 0.020 60.0 / 1)",
+    "mainColor": "oklch(72.0% 0.085 50.0 / 1)",
+    "secondaryColor": "oklch(60.0% 0.060 35.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "driftwood-brown",
+    "name": "Driftwood Brown",
+    "description": "Weathered wood and sandy coves",
+    "backgroundColor": "oklch(22.0% 0.020 55.0 / 1)",
+    "mainColor": "oklch(68.0% 0.085 65.0 / 1)",
+    "secondaryColor": "oklch(58.0% 0.060 45.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "yuzu-mist",
+    "name": "Yuzu Mist",
+    "description": "Citrus peel in morning air",
+    "backgroundColor": "oklch(92.0% 0.025 95.0 / 1)",
+    "mainColor": "oklch(70.0% 0.145 85.0 / 1)",
+    "secondaryColor": "oklch(62.0% 0.090 70.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "storm-lake",
+    "name": "Storm Lake",
+    "description": "Dark water and electric sky",
+    "backgroundColor": "oklch(15.0% 0.050 250.0 / 1)",
+    "mainColor": "oklch(78.0% 0.180 235.0 / 1)",
+    "secondaryColor": "oklch(62.0% 0.130 270.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "wasanbon",
+    "name": "Wasanbon",
+    "description": "Fine sugar and tea ceremony sweets",
+    "backgroundColor": "oklch(96.0% 0.012 95.0 / 1)",
+    "mainColor": "oklch(62.0% 0.110 75.0 / 1)",
+    "secondaryColor": "oklch(70.0% 0.060 85.0 / 1)",
+    "issued": false
+  },
+  {
+    "id": "bento-sage",
+    "name": "Bento Sage",
+    "description": "Lacquered boxes and fresh greens",
+    "backgroundColor": "oklch(20.0% 0.030 145.0 / 1)",
+    "mainColor": "oklch(70.0% 0.115 135.0 / 1)",
+    "secondaryColor": "oklch(58.0% 0.085 160.0 / 1)",
+    "issued": false
   }
 ]

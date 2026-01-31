@@ -273,5 +273,155 @@
     "id": 55,
     "text": "\"〜ば〜ほど\" means \"the more... the more...\".",
     "issued": true
+  },
+  {
+    "id": 56,
+    "text": "\"〜に違いない\" expresses strong conviction: \"must be\".",
+    "issued": false
+  },
+  {
+    "id": 57,
+    "text": "\"〜わけがない\" means \"there is no way that...\".",
+    "issued": false
+  },
+  {
+    "id": 58,
+    "text": "\"〜ようにする\" means \"make an effort to...\".",
+    "issued": false
+  },
+  {
+    "id": 59,
+    "text": "\"〜てしまう\" can express completion or regret (\"end up doing\").",
+    "issued": false
+  },
+  {
+    "id": 60,
+    "text": "\"〜にしては\" means \"considering...\".",
+    "issued": false
+  },
+  {
+    "id": 61,
+    "text": "\"〜にとって\" means \"for / to (someone)\".",
+    "issued": false
+  },
+  {
+    "id": 62,
+    "text": "\"〜につれて\" means \"as... changes, ... also changes\".",
+    "issued": false
+  },
+  {
+    "id": 63,
+    "text": "\"〜に比べて\" means \"compared to...\".",
+    "issued": false
+  },
+  {
+    "id": 64,
+    "text": "\"〜によると\" means \"according to...\".",
+    "issued": false
+  },
+  {
+    "id": 65,
+    "text": "\"〜に応じて\" means \"depending on...\".",
+    "issued": false
+  },
+  {
+    "id": 66,
+    "text": "\"〜に加えて\" means \"in addition to...\".",
+    "issued": false
+  },
+  {
+    "id": 67,
+    "text": "\"〜に向けて\" means \"toward / in preparation for\".",
+    "issued": false
+  },
+  {
+    "id": 68,
+    "text": "\"〜おそれがある\" means \"there is a risk that...\".",
+    "issued": false
+  },
+  {
+    "id": 69,
+    "text": "\"〜ものの\" means \"although...\" with contrast.",
+    "issued": false
+  },
+  {
+    "id": 70,
+    "text": "\"〜まま\" means \"as-is / while remaining...\".",
+    "issued": false
+  },
+  {
+    "id": 71,
+    "text": "\"〜わけにはいかない\" means \"cannot (due to circumstances)\".",
+    "issued": false
+  },
+  {
+    "id": 72,
+    "text": "\"〜て以来\" means \"since (doing)\".",
+    "issued": false
+  },
+  {
+    "id": 73,
+    "text": "\"〜たびに\" means \"every time...\".",
+    "issued": false
+  },
+  {
+    "id": 74,
+    "text": "\"〜ところ\" can mean \"just did / about to do / in the middle of\".",
+    "issued": false
+  },
+  {
+    "id": 75,
+    "text": "\"〜ことにする\" means \"decide to...\".",
+    "issued": false
+  },
+  {
+    "id": 76,
+    "text": "\"〜ことになっている\" means \"it is decided/arranged that...\".",
+    "issued": false
+  },
+  {
+    "id": 77,
+    "text": "\"〜わりに\" means \"despite / considering...\".",
+    "issued": false
+  },
+  {
+    "id": 78,
+    "text": "\"〜ながら\" can mean \"while\" (simultaneous action).",
+    "issued": false
+  },
+  {
+    "id": 79,
+    "text": "\"〜にすぎない\" means \"no more than...\".",
+    "issued": false
+  },
+  {
+    "id": 80,
+    "text": "\"〜てはじめて\" means \"only after...\".",
+    "issued": false
+  },
+  {
+    "id": 81,
+    "text": "\"〜に気づく\" means \"to notice / realize...\".",
+    "issued": false
+  },
+  {
+    "id": 82,
+    "text": "\"〜ばかりか\" means \"not only... but also\".",
+    "issued": false
+  },
+  {
+    "id": 83,
+    "text": "\"〜にしたがって\" means \"as / in accordance with...\".",
+    "issued": false
+  },
+  {
+    "id": 84,
+    "text": "\"〜を通して\" means \"through / throughout...\".",
+    "issued": false
+  },
+  {
+    "id": 85,
+    "text": "\"〜に限って\" means \"only / exclusively\".",
+    "issued": false
   }
 ]

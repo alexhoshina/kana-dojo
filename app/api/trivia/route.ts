@@ -20,7 +20,12 @@ type TriviaQuestion = {
 };
 
 function readJsonFile(fileName: string): TriviaQuestion[] {
-  const filePath = path.join(process.cwd(), 'data', 'community', fileName);
+  const filePath = path.join(
+    process.cwd(),
+    'data',
+    'community-content',
+    fileName,
+  );
   if (!fs.existsSync(filePath)) {
     return [];
   }

@@ -83,13 +83,14 @@ IGNORE_PATTERNS=(
   
   # Data and community content (non-build affecting)
   "^features/Preferences/data/themes\\.ts$"
-  "^data/community/japan-facts\\.json$"
-  "^data/community/japanese-proverbs\\.json$"
-  "^data/community/japanese-grammar\\.json$"
-  "^data/community/anime-quotes\\.json$"
-  "^data/community/japan-trivia\\.json$"
-  "^data/community/japan-trivia-(easy|medium|hard)\\.json$"
-  "^data/community/"
+  "^data/community-content/japan-facts\\.json$"
+  "^data/community-content/japanese-proverbs\\.json$"
+  "^data/community-content/japanese-grammar\\.json$"
+  "^data/community-content/anime-quotes\\.json$"
+  "^data/community-content/japan-trivia\\.json$"
+  "^data/community-content/japan-trivia-(easy|medium|hard)\\.json$"
+  "^data/community-content/"
+  "^data/community-backlog/"
   "^data/.*\\.json$"
   "^data/"
 )

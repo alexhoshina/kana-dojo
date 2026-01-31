@@ -71,25 +71,25 @@ jobs:
               return emojiBank[Math.floor(Math.random() * emojiBank.length)];
             }
 
-            const statePath = 'data/community/automation-state.json';
-            const themeBacklogPath = 'data/community/theme-backlog.json';
-            const factsBacklogPath = 'data/community/facts-backlog.json';
-            const proverbsBacklogPath = 'data/community/proverbs-backlog.json';
-            const triviaBacklogPath = 'data/community/trivia-backlog.json';
-            const grammarBacklogPath = 'data/community/grammar-backlog.json';
-            const animeQuotesBacklogPath = 'data/community/anime-quotes-backlog.json';
+            const statePath = 'data/community-backlog/automation-state.json';
+            const themeBacklogPath = 'data/community-backlog/theme-backlog.json';
+            const factsBacklogPath = 'data/community-backlog/facts-backlog.json';
+            const proverbsBacklogPath = 'data/community-backlog/proverbs-backlog.json';
+            const triviaBacklogPath = 'data/community-backlog/trivia-backlog.json';
+            const grammarBacklogPath = 'data/community-backlog/grammar-backlog.json';
+            const animeQuotesBacklogPath = 'data/community-backlog/anime-quotes-backlog.json';
 
             const themesSourcePath = 'features/Preferences/data/themes.ts';
-            const factsSourcePath = 'data/community/japan-facts.json';
-            const proverbsSourcePath = 'data/community/japanese-proverbs.json';
+            const factsSourcePath = 'data/community-content/japan-facts.json';
+            const proverbsSourcePath = 'data/community-content/japanese-proverbs.json';
             const triviaSourcePaths = {
-              easy: 'data/community/japan-trivia-easy.json',
-              medium: 'data/community/japan-trivia-medium.json',
-              hard: 'data/community/japan-trivia-hard.json'
+              easy: 'data/community-content/japan-trivia-easy.json',
+              medium: 'data/community-content/japan-trivia-medium.json',
+              hard: 'data/community-content/japan-trivia-hard.json'
             };
-            const triviaLegacyPath = 'data/community/japan-trivia.json';
-            const grammarSourcePath = 'data/community/japanese-grammar.json';
-            const animeQuotesSourcePath = 'data/community/anime-quotes.json';
+            const triviaLegacyPath = 'data/community-content/japan-trivia.json';
+            const grammarSourcePath = 'data/community-content/japanese-grammar.json';
+            const animeQuotesSourcePath = 'data/community-content/anime-quotes.json';
 
             let state = JSON.parse(fs.readFileSync(statePath, 'utf8'));
             const themes = JSON.parse(fs.readFileSync(themeBacklogPath, 'utf8'));
@@ -630,7 +630,7 @@ jobs:
         with:
           token: ${{ secrets.AUTOMATION_PR_TOKEN }}
           add-paths: |
-            data/community/
+            data/community-backlog/
           commit-message: 'chore(automation): mark item as issued'
           branch: automation/community-data/hourly-${{ github.run_id }}
           title: 'chore(automation): update community backlog'

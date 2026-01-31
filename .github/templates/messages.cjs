@@ -268,7 +268,7 @@ module.exports = {
         'Add this interesting fact about Japan to our collection!',
       factHeader: '### The Fact',
       // Use buildInstructions: filePath, itemType, prTitle
-      file: 'data/community/japan-facts.json',
+      file: 'data/community-content/japan-facts.json',
       itemType: 'fact',
       prTitle: 'content: add new japan fact',
     },
@@ -281,7 +281,7 @@ module.exports = {
       taskDescription:
         'Add this traditional Japanese proverb to help learners understand Japanese wisdom!',
       proverbHeader: '### The Proverb',
-      file: 'data/community/japanese-proverbs.json',
+      file: 'data/community-content/japanese-proverbs.json',
       itemType: 'proverb object',
       prTitle: 'content: add new japanese proverb',
     },
@@ -293,8 +293,8 @@ module.exports = {
       estimatedTime: '2 minutes (good-first-issue!)',
       taskDescription: 'Add this trivia question to our growing quiz bank!',
       triviaHeader: '### The Trivia Question',
-      // Trivia uses dynamic file path: data/community/{difficultyFile}
-      file: 'data/community/{difficultyFile}',
+      // Trivia uses dynamic file path: data/community-content/{difficultyFile}
+      file: 'data/community-content/{difficultyFile}',
       itemType: 'trivia object',
       prTitle: 'content: add new trivia question',
     },
@@ -307,7 +307,7 @@ module.exports = {
       taskDescription:
         'Add this grammar explanation to our learner-friendly grammar list!',
       grammarHeader: '### The Grammar Point',
-      file: 'data/community/japanese-grammar.json',
+      file: 'data/community-content/japanese-grammar.json',
       itemType: 'grammar string',
       prTitle: 'content: add new grammar point',
     },
@@ -320,7 +320,7 @@ module.exports = {
       taskDescription:
         'Add this iconic anime quote so learners can enjoy Japanese pop culture!',
       quoteHeader: '### The Quote',
-      file: 'data/community/anime-quotes.json',
+      file: 'data/community-content/anime-quotes.json',
       itemType: 'anime quote object',
       prTitle: 'content: add anime quote',
     },

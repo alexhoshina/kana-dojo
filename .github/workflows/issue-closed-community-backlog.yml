@@ -60,12 +60,12 @@ jobs:
               return;
             }
 
-            const themeBacklogPath = 'data/community/theme-backlog.json';
-            const factsBacklogPath = 'data/community/facts-backlog.json';
-            const proverbsBacklogPath = 'data/community/proverbs-backlog.json';
-            const triviaBacklogPath = 'data/community/trivia-backlog.json';
-            const grammarBacklogPath = 'data/community/grammar-backlog.json';
-            const animeQuotesBacklogPath = 'data/community/anime-quotes-backlog.json';
+            const themeBacklogPath = 'data/community-backlog/theme-backlog.json';
+            const factsBacklogPath = 'data/community-backlog/facts-backlog.json';
+            const proverbsBacklogPath = 'data/community-backlog/proverbs-backlog.json';
+            const triviaBacklogPath = 'data/community-backlog/trivia-backlog.json';
+            const grammarBacklogPath = 'data/community-backlog/grammar-backlog.json';
+            const animeQuotesBacklogPath = 'data/community-backlog/anime-quotes-backlog.json';
 
             const themes = JSON.parse(fs.readFileSync(themeBacklogPath, 'utf8'));
             const facts = JSON.parse(fs.readFileSync(factsBacklogPath, 'utf8'));
@@ -196,7 +196,7 @@ jobs:
         with:
           token: ${{ secrets.AUTOMATION_PR_TOKEN }}
           add-paths: |
-            data/community/
+            data/community-backlog/
           commit-message: 'chore(automation): re-enable closed issue backlog'
           branch: automation/community-data/closed-${{ github.run_id }}
           title: 'chore(automation): update community backlog'

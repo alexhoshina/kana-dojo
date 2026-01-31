@@ -1672,5 +1672,155 @@
     "id": 290,
     "fact": "The term 'kigatsuku' (気がつく) means to notice or realize, and is often associated with considerate awareness.",
     "issued": true
+  },
+  {
+    "id": 291,
+    "fact": "Japan’s name for the rainy season, 'tsuyu' (梅雨), literally means \"plum rain\" because it coincides with the ripening of ume plums.",
+    "issued": false
+  },
+  {
+    "id": 292,
+    "fact": "The term 'komorebi' (木漏れ日) describes sunlight filtering through leaves—so common it has a single word.",
+    "issued": false
+  },
+  {
+    "id": 293,
+    "fact": "Japan has a tradition called 'hajimete no omiyage' where travelers bring their first souvenir to share with family or coworkers.",
+    "issued": false
+  },
+  {
+    "id": 294,
+    "fact": "The concept of 'mottainai' (もったいない) expresses regret over waste and encourages respect for resources.",
+    "issued": false
+  },
+  {
+    "id": 295,
+    "fact": "A 'shuincho' (朱印帳) is a stamp book used to collect shrine and temple seals during visits across Japan.",
+    "issued": false
+  },
+  {
+    "id": 296,
+    "fact": "The word 'yuruyaka' (ゆるやか) means gentle or gradual, often used to describe soft slopes or slow changes.",
+    "issued": false
+  },
+  {
+    "id": 297,
+    "fact": "Japan’s 'eki-ben' (駅弁) are region-specific boxed meals sold at train stations, often featuring local specialties.",
+    "issued": false
+  },
+  {
+    "id": 298,
+    "fact": "The term 'kintsugi' (金継ぎ) refers to repairing ceramics with gold, embracing cracks as part of an object’s history.",
+    "issued": false
+  },
+  {
+    "id": 299,
+    "fact": "'Yozakura' (夜桜) means night-time cherry blossom viewing, often accompanied by lanterns and food stalls.",
+    "issued": false
+  },
+  {
+    "id": 300,
+    "fact": "A 'hikimono' (引き物) is a small parting gift given at weddings, often a set of sweets or tea.",
+    "issued": false
+  },
+  {
+    "id": 301,
+    "fact": "Japan’s New Year custom 'hatsumode' (初詣) involves visiting a shrine or temple for the year’s first prayer.",
+    "issued": false
+  },
+  {
+    "id": 302,
+    "fact": "The phrase 'itadakimasu' (いただきます) is said before meals to show gratitude for the food and those who prepared it.",
+    "issued": false
+  },
+  {
+    "id": 303,
+    "fact": "'Natsukashii' (懐かしい) describes a warm, nostalgic feeling when recalling the past.",
+    "issued": false
+  },
+  {
+    "id": 304,
+    "fact": "Japan’s 'hanami' tradition often includes picnic mats, bento boxes, and seasonal sweets under the cherry trees.",
+    "issued": false
+  },
+  {
+    "id": 305,
+    "fact": "The term 'shibui' (渋い) refers to understated, elegant beauty—often used for subtle flavors or aesthetics.",
+    "issued": false
+  },
+  {
+    "id": 306,
+    "fact": "A 'kotatsu' is a low table with a heater and blanket, making winter living rooms warm and cozy in Japan.",
+    "issued": false
+  },
+  {
+    "id": 307,
+    "fact": "Japan’s 'tanabata' festival celebrates star-crossed lovers with colorful paper wishes tied to bamboo branches.",
+    "issued": false
+  },
+  {
+    "id": 308,
+    "fact": "'Furoshiki' are reusable cloth wraps used to carry goods or wrap gifts, often with artistic patterns.",
+    "issued": false
+  },
+  {
+    "id": 309,
+    "fact": "Japan has a word 'tsundoku' (積ん読) for buying books and letting them pile up unread.",
+    "issued": false
+  },
+  {
+    "id": 310,
+    "fact": "The term 'okagesama' (おかげさまで) expresses humility, meaning \"thanks to you\" or \"thanks to circumstances.\"",
+    "issued": false
+  },
+  {
+    "id": 311,
+    "fact": "'Mono no aware' (物の哀れ) is an aesthetic of gentle sadness at the impermanence of things.",
+    "issued": false
+  },
+  {
+    "id": 312,
+    "fact": "Japan’s 'shichi-go-san' festival celebrates children at ages 3, 5, and 7 with shrine visits and traditional outfits.",
+    "issued": false
+  },
+  {
+    "id": 313,
+    "fact": "The phrase 'yoroshiku onegaishimasu' (よろしくお願いします) is a versatile expression for \"please take care of me.\"",
+    "issued": false
+  },
+  {
+    "id": 314,
+    "fact": "'Wabi-sabi' is the appreciation of beauty in imperfection and the natural aging of materials.",
+    "issued": false
+  },
+  {
+    "id": 315,
+    "fact": "Japan’s 'omotenashi' culture emphasizes thoughtful hospitality and anticipating guests’ needs.",
+    "issued": false
+  },
+  {
+    "id": 316,
+    "fact": "The term 'shinnen' (信念) means conviction or strongly held belief, often tied to personal principles.",
+    "issued": false
+  },
+  {
+    "id": 317,
+    "fact": "'Amanatto' are sweetened azuki beans often served with tea as a small snack.",
+    "issued": false
+  },
+  {
+    "id": 318,
+    "fact": "The word 'sukiyaki' refers both to the dish and to a style of cooking ingredients at the table.",
+    "issued": false
+  },
+  {
+    "id": 319,
+    "fact": "The Japanese term 'shinrin-yoku' (森林浴) translates to \"forest bathing\" and emphasizes mindful time in nature.",
+    "issued": false
+  },
+  {
+    "id": 320,
+    "fact": "'Mame' (豆) can mean both \"bean\" and \"diligent\"—so bean-related gifts sometimes imply good health and hard work.",
+    "issued": false
   }
 ]

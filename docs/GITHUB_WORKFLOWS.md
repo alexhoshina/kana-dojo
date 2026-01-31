@@ -85,7 +85,7 @@ KanaDojo uses GitHub Actions for automation across the development lifecycle. Wo
 3. Find linked issue (explicit `Closes #` or pattern matching)
 4. Comment on issue with merge notification
 5. Close issue as completed
-6. Update backlog files (`data/community/*.json`)
+6. Update backlog files (`data/community-backlog/*.json`)
 
 **Contribution Types**:
 
@@ -134,9 +134,9 @@ KanaDojo uses GitHub Actions for automation across the development lifecycle. Wo
 
 **Backlog Files**:
 
-- `data/community/theme-backlog.json`
-- `data/community/facts-backlog.json`
-- `data/community/proverbs-backlog.json`
+- `data/community-backlog/theme-backlog.json`
+- `data/community-backlog/facts-backlog.json`
+- `data/community-backlog/proverbs-backlog.json`
 
 ---
 

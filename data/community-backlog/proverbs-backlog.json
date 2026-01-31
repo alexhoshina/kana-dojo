@@ -430,21 +430,8 @@
     "romaji": "Kega no koumyou",
     "english": "Fame from a mistake",
     "meaning": "A lucky break that comes from an error",
-    "issued": true,
-    "completed": true,
     "completedBy": "iamnikhilranjan",
     "completedPR": 1677
-  },
-  {
-    "id": 43,
-    "japanese": "七転び八起き",
-    "romaji": "Nanakorobi yaoki",
-    "english": "Fall seven times, get up eight",
-    "meaning": "Never give up",
-    "issued": true,
-    "completed": true,
-    "completedBy": "iamnikhilranjan",
-    "completedPR": 1462
   },
   {
     "id": 44,
@@ -456,6 +443,14 @@
     "completed": true,
     "completedBy": "kaedeek",
     "completedPR": 1369
+  },
+  {
+    "id": 150,
+    "japanese": "七転び八起き",
+    "romaji": "Nanakorobi yaoki",
+    "english": "Fall seven times, get up eight",
+    "meaning": "Never give up",
+    "issued": true
   },
   {
     "id": 45,
@@ -1359,5 +1354,245 @@
     "meaning": "Never give up",
     "issued": false,
     "completed": true
+  },
+  {
+    "id": 151,
+    "japanese": "雨降って地固まる",
+    "romaji": "Ame futte ji katamaru",
+    "english": "After the rain, the ground hardens",
+    "meaning": "Hard times build resilience",
+    "issued": false
+  },
+  {
+    "id": 152,
+    "japanese": "思い立ったが吉日",
+    "romaji": "Omoitattaga kichijitsu",
+    "english": "The day you decide is a lucky day",
+    "meaning": "Start now",
+    "issued": false
+  },
+  {
+    "id": 153,
+    "japanese": "失敗は成功のもと",
+    "romaji": "Shippai wa seikou no moto",
+    "english": "Failure is the origin of success",
+    "meaning": "Mistakes lead to growth",
+    "issued": false
+  },
+  {
+    "id": 154,
+    "japanese": "泣きっ面に蜂",
+    "romaji": "Naki tsura ni hachi",
+    "english": "A bee on a crying face",
+    "meaning": "Misfortune piles up",
+    "issued": false
+  },
+  {
+    "id": 155,
+    "japanese": "能ある鷹は爪を隠す",
+    "romaji": "Nou aru taka wa tsume wo kakusu",
+    "english": "A skilled hawk hides its talons",
+    "meaning": "True skill is modest",
+    "issued": false
+  },
+  {
+    "id": 156,
+    "japanese": "猿も木から落ちる",
+    "romaji": "Saru mo ki kara ochiru",
+    "english": "Even monkeys fall from trees",
+    "meaning": "Experts make mistakes",
+    "issued": false
+  },
+  {
+    "id": 157,
+    "japanese": "覆水盆に返らず",
+    "romaji": "Fukusui bon ni kaerazu",
+    "english": "Spilled water doesn’t return to the tray",
+    "meaning": "What’s done is done",
+    "issued": false
+  },
+  {
+    "id": 158,
+    "japanese": "焼け石に水",
+    "romaji": "Yake ishi ni mizu",
+    "english": "Water on a hot stone",
+    "meaning": "A futile effort",
+    "issued": false
+  },
+  {
+    "id": 159,
+    "japanese": "情けは人の為ならず",
+    "romaji": "Nasake wa hito no tame narazu",
+    "english": "Kindness is not for others alone",
+    "meaning": "Kindness comes back to you",
+    "issued": false
+  },
+  {
+    "id": 160,
+    "japanese": "石橋を叩いて渡る",
+    "romaji": "Ishibashi wo tataite wataru",
+    "english": "Tap a stone bridge before crossing",
+    "meaning": "Be very cautious",
+    "issued": false
+  },
+  {
+    "id": 161,
+    "japanese": "一寸先は闇",
+    "romaji": "Issun saki wa yami",
+    "english": "An inch ahead is darkness",
+    "meaning": "The future is uncertain",
+    "issued": false
+  },
+  {
+    "id": 162,
+    "japanese": "笑う門には福来る",
+    "romaji": "Warau kado ni wa fuku kitaru",
+    "english": "Good fortune comes to a laughing home",
+    "meaning": "Happiness invites luck",
+    "issued": false
+  },
+  {
+    "id": 163,
+    "japanese": "雨後の筍",
+    "romaji": "Ugo no takenoko",
+    "english": "Bamboo shoots after rain",
+    "meaning": "Things spring up rapidly",
+    "issued": false
+  },
+  {
+    "id": 164,
+    "japanese": "千里の道も一歩から",
+    "romaji": "Senri no michi mo ippo kara",
+    "english": "A journey of a thousand miles begins with one step",
+    "meaning": "Start small",
+    "issued": false
+  },
+  {
+    "id": 165,
+    "japanese": "早起きは三文の徳",
+    "romaji": "Hayaoki wa sanmon no toku",
+    "english": "Early rising brings three coins of benefit",
+    "meaning": "Wake early for advantage",
+    "issued": false
+  },
+  {
+    "id": 166,
+    "japanese": "馬子にも衣装",
+    "romaji": "Mago ni mo ishou",
+    "english": "Even a packhorse driver looks good in fine clothes",
+    "meaning": "Clothes make the person",
+    "issued": false
+  },
+  {
+    "id": 167,
+    "japanese": "二兎を追う者は一兎をも得ず",
+    "romaji": "Ni to wo ou mono wa itto wo mo ezu",
+    "english": "Chase two rabbits, catch none",
+    "meaning": "Focus on one thing",
+    "issued": false
+  },
+  {
+    "id": 168,
+    "japanese": "井の中の蛙大海を知らず",
+    "romaji": "I no naka no kawazu taikai wo shirazu",
+    "english": "A frog in a well doesn’t know the ocean",
+    "meaning": "Limited experience limits perspective",
+    "issued": false
+  },
+  {
+    "id": 169,
+    "japanese": "口は禍の元",
+    "romaji": "Kuchi wa wazawai no moto",
+    "english": "The mouth is the source of misfortune",
+    "meaning": "Careless words cause trouble",
+    "issued": false
+  },
+  {
+    "id": 170,
+    "japanese": "虎穴に入らずんば虎子を得ず",
+    "romaji": "Koketsu ni irazunba koji wo ezu",
+    "english": "You can’t get the tiger’s cub without entering the lair",
+    "meaning": "No reward without risk",
+    "issued": false
+  },
+  {
+    "id": 171,
+    "japanese": "明日は明日の風が吹く",
+    "romaji": "Ashita wa ashita no kaze ga fuku",
+    "english": "Tomorrow’s wind will blow tomorrow",
+    "meaning": "Don’t worry too much about the future",
+    "issued": false
+  },
+  {
+    "id": 172,
+    "japanese": "楽あれば苦あり",
+    "romaji": "Raku areba ku ari",
+    "english": "With comfort comes hardship",
+    "meaning": "Life has ups and downs",
+    "issued": false
+  },
+  {
+    "id": 173,
+    "japanese": "念には念を入れよ",
+    "romaji": "Nen ni wa nen wo ireyo",
+    "english": "Put care into care",
+    "meaning": "Double-check everything",
+    "issued": false
+  },
+  {
+    "id": 174,
+    "japanese": "一日千秋",
+    "romaji": "Ichijitsu senshuu",
+    "english": "A day feels like a thousand autumns",
+    "meaning": "Waiting makes time feel long",
+    "issued": false
+  },
+  {
+    "id": 175,
+    "japanese": "花は桜木人は武士",
+    "romaji": "Hana wa sakuragi hito wa bushi",
+    "english": "Among flowers, cherry blossoms; among men, warriors",
+    "meaning": "The best of each kind",
+    "issued": false
+  },
+  {
+    "id": 176,
+    "japanese": "餅は餅屋",
+    "romaji": "Mochi wa mochiya",
+    "english": "Mochi should be made by the mochi shop",
+    "meaning": "Leave it to the experts",
+    "issued": false
+  },
+  {
+    "id": 177,
+    "japanese": "灯台下暗し",
+    "romaji": "Toudai moto kurashi",
+    "english": "It’s darkest under the lighthouse",
+    "meaning": "The obvious is overlooked",
+    "issued": false
+  },
+  {
+    "id": 178,
+    "japanese": "木を見て森を見ず",
+    "romaji": "Ki wo mite mori wo mizu",
+    "english": "See the trees but not the forest",
+    "meaning": "Miss the bigger picture",
+    "issued": false
+  },
+  {
+    "id": 179,
+    "japanese": "旅は道連れ世は情け",
+    "romaji": "Tabi wa michizure yo wa nasake",
+    "english": "Travel needs companions; life needs kindness",
+    "meaning": "Relationships and compassion matter",
+    "issued": false
+  },
+  {
+    "id": 180,
+    "japanese": "犬も歩けば棒に当たる",
+    "romaji": "Inu mo arukeba bou ni ataru",
+    "english": "Even a walking dog will hit a stick",
+    "meaning": "Acting can lead to luck or trouble",
+    "issued": false
   }
 ]
